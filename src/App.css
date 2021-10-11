@@ -27,11 +27,23 @@ h4 {
   color: cornsilk;
 }
 
+.container {
+  display: flex;
+  justify-content: flex-start;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+
 .row {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   padding-bottom: 1em;
+  width: 80%;
 }
 
 .col {
@@ -44,16 +56,6 @@ h4 {
   flex-basis: 0;
   flex-grow: 1;
   max-width: 20%;
-}
-
-.container {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  width: 100vw;
-  height: 100vh;
-  flex-wrap: wrap;
 }
 
 .list {
@@ -88,7 +90,7 @@ h4 {
 
 /*Modal*/
 
-.modalButton {
+/* .modalButton {
   margin-top: 2em;
 }
 
@@ -128,7 +130,7 @@ h4 {
 
 .ReactModal__Overlay--before-close{
   opacity: 0;
-}
+} */
 
 
 input[type=checkbox] {
@@ -194,3 +196,14 @@ input[type=checkbox]:checked + label:before {
   background-color: rgb(122, 44, 173);
   color: #fff;
 }
+
+.buff input[type=checkbox]:checked + label:before {
+  background-color: rgb(67, 212, 79);
+  color: #fff;
+}
+
+.debuff input[type=checkbox]:checked + label:before {
+  background-color: rgb(235, 81, 81);
+  color: #fff;
+}
+

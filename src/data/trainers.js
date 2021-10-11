@@ -12,7 +12,7 @@ export const trainersData = [
         debuff: [''],
         status: [''],
         terrain: [''],
-        icon: '/img/trainers/0Z_0G_ANNIV_2021_Lillie.png',
+        icon: '../img/trainers/0Z_0G_ANNIV_2021_Lillie.png',
         url: 'https://gamepress.gg/pokemonmasters/pokemon/lillie-lunala'
     },
     {
@@ -28,7 +28,7 @@ export const trainersData = [
         debuff: ['SP.DEFdown'],
         status: ['Burn'],
         terrain: [''],
-        icon: '/img/trainers/0Z_0G_ANNIV_2021_N.png',
+        icon: '../img/trainers/0Z_0G_ANNIV_2021_N.png',
         url: 'https://gamepress.gg/pokemonmasters/pokemon/n-reshiram'
     },
     {
@@ -44,7 +44,7 @@ export const trainersData = [
         debuff: ['SP.DEFdown'],
         status: [''],
         terrain: [''],
-        icon: '/img/trainers/0Z_0G_ANNIV_2021_Steven.png',
+        icon: '../img/trainers/0Z_0G_ANNIV_2021_Steven.png',
         url: 'https://gamepress.gg/pokemonmasters/pokemon/n-reshiram'
     },
     {
@@ -60,7 +60,7 @@ export const trainersData = [
         debuff: ['SP.DEFdown'],
         status: [''],
         terrain: [''],
-        icon: '/img/trainers/0Z_0B_PAL_2021_Serena.png',
+        icon: '../img/trainers/0Z_0B_PAL_2021_Serena.png',
         url: 'https://gamepress.gg/pokemonmasters/pokemon/n-reshiram'
     },
     {
@@ -76,7 +76,7 @@ export const trainersData = [
         debuff: [''],
         status: ['Paralyze'],
         terrain: [''],
-        icon: '/img/trainers/0E_UNOVA_0B-04_SSElesa.png',
+        icon: '../img/trainers/0E_UNOVA_0B-04_SSElesa.png',
         url: 'https://gamepress.gg/pokemonmasters/pokemon/n-reshiram'
     }
 ];

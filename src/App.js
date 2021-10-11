@@ -81,33 +81,9 @@ const App = () => {
     setSelected(newFilters);
   };
 
-  const [modalIsOpen, setIsOpen] = React.useState(false);
-
-  function openModal() {
-    setIsOpen(true);
-  }
-
-  function afterOpenModal() {
-  }
-
-  function closeModal() {
-    setIsOpen(false);
-  }
-
+ 
   return (
     <div className="container">
-
-      <div>
-        <button className="modalButton" onClick={openModal}>Open Filters</button>
-        <Modal
-          overlayClassName="modalOverlay"
-          className="modalContent"
-          isOpen={modalIsOpen}
-          onAfterOpen={afterOpenModal}
-          onRequestClose={closeModal}
-        >
-
-
           <div className="row">
             <div className="col type">
               <h3>Filter by Type</h3>
@@ -179,8 +155,6 @@ const App = () => {
               />
             </div>
           </div>
-        </Modal>
-      </div>
 
       <div className="list">
         {trainers.map((trainer) => (
