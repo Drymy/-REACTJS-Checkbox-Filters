@@ -1,0 +1,196 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  margin: auto;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+h4, h5 {
+  margin: 8px;
+  padding: 0;
+}
+
+h4 {
+  color: cornsilk;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-bottom: 1em;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  flex-basis: 0;
+  flex-grow: 1;
+  max-width: 20%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  flex-wrap: wrap;
+}
+
+.list {
+  display: flex;
+  flex-direction: row;
+  height: 70vh;
+  margin: 4em;
+  justify-content: center;
+  align-items: flex-start;
+  width: 90%;
+  background-color: rgb(49, 66, 92);
+  box-shadow: -1px 9px 0px -4px rgba(0,0,0,0.67);
+  -webkit-box-shadow: -1px 9px 0px -4px rgba(0,0,0,0.67);
+  -moz-box-shadow: -1px 9px 0px -4px rgba(0,0,0,0.67);
+}
+
+.trainerBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  line-height: 1px;
+  margin: 0;
+}
+
+.trainerIcon img {
+  width: 80%;
+  height: auto;
+}
+
+
+/*Modal*/
+
+.modalButton {
+  margin-top: 2em;
+}
+
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.45);
+  opacity: 0;
+  transition: opacity 300ms ease-in-out;
+}
+
+.modalContent {
+  width: 80%;
+  position: absolute;
+  top: 27%;
+  left: 50%;
+  right: auto;
+  bottom: auto;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid #ccc;
+  background: rgb(67, 64, 90);
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+  border-radius: 4px;
+  outline: none;
+  padding: 20px;
+  color: white;
+}
+
+.ReactModal__Overlay--after-open{
+  opacity: 1;
+}
+
+.ReactModal__Overlay--before-close{
+  opacity: 0;
+}
+
+
+input[type=checkbox] {
+  display: none;
+}
+
+input[type=checkbox] + label {
+  display: block;
+  margin: 0.2em;
+  cursor: pointer;
+  padding: 0.2em;
+}
+
+input[type=checkbox] {
+  display: none;
+}
+
+input[type=checkbox] + label:before {
+  content: "\2714";
+  border: 0.1em solid #fff;
+  border-radius: 0.2em;
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  padding-left: 0.2em;
+  padding-bottom: 0.3em;
+  margin-right: 0.2em;
+  vertical-align: middle;
+  color: transparent;
+  transition: .2s;
+}
+
+input[type=checkbox] + label:active:before {
+  transform: scale(0);
+}
+
+input[type=checkbox]:checked + label:before {
+  border-color: rgba(135, 60, 179, 0);
+  color: #fff;
+}
+
+.type input[type=checkbox]:checked + label:before {
+  background-color: rgb(177, 39, 39);
+  color: #fff;
+}
+
+.role input[type=checkbox]:checked + label:before {
+  background-color: rgb(39, 115, 177);
+  color: #fff;
+}
+
+.region input[type=checkbox]:checked + label:before {
+  background-color: rgb(51, 182, 117);
+  color: #fff;
+}
+
+.rarity input[type=checkbox]:checked + label:before {
+  background-color: rgb(207, 142, 57);
+  color: #fff;
+}
+
+.extra input[type=checkbox]:checked + label:before {
+  background-color: rgb(122, 44, 173);
+  color: #fff;
+}
