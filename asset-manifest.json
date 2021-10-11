@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/React-Checkbox-Filter-Test-/static/css/main.734a5cad.chunk.css",
+    "main.js": "/React-Checkbox-Filter-Test-/static/js/main.96f60d10.chunk.js",
+    "main.js.map": "/React-Checkbox-Filter-Test-/static/js/main.96f60d10.chunk.js.map",
+    "runtime-main.js": "/React-Checkbox-Filter-Test-/static/js/runtime-main.7bd74ea8.js",
+    "runtime-main.js.map": "/React-Checkbox-Filter-Test-/static/js/runtime-main.7bd74ea8.js.map",
+    "static/js/2.eb15fdba.chunk.js": "/React-Checkbox-Filter-Test-/static/js/2.eb15fdba.chunk.js",
+    "static/js/2.eb15fdba.chunk.js.map": "/React-Checkbox-Filter-Test-/static/js/2.eb15fdba.chunk.js.map",
+    "static/js/3.e5c60324.chunk.js": "/React-Checkbox-Filter-Test-/static/js/3.e5c60324.chunk.js",
+    "static/js/3.e5c60324.chunk.js.map": "/React-Checkbox-Filter-Test-/static/js/3.e5c60324.chunk.js.map",
+    "index.html": "/React-Checkbox-Filter-Test-/index.html",
+    "static/css/main.734a5cad.chunk.css.map": "/React-Checkbox-Filter-Test-/static/css/main.734a5cad.chunk.css.map",
+    "static/js/2.eb15fdba.chunk.js.LICENSE.txt": "/React-Checkbox-Filter-Test-/static/js/2.eb15fdba.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7bd74ea8.js",
+    "static/js/2.eb15fdba.chunk.js",
+    "static/css/main.734a5cad.chunk.css",
+    "static/js/main.96f60d10.chunk.js"
+  ]
+}
