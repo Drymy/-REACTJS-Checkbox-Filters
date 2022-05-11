@@ -3,7 +3,7 @@ export const trainersData = [
         id: 1,
         name: 'Lillie',
         pokemon: 'Lunala',
-        type: ['Ghost'],
+        type: ['Ghost', 'Fairy'],
         role: ['Spe.Striker'],
         region: 'Alola',
         rarity: '5',
@@ -12,7 +12,7 @@ export const trainersData = [
         debuff: [''],
         status: [''],
         terrain: [''],
-        icon: '../img/trainers/0Z_0G_ANNIV_2021_Lillie.png',
+        icon: 'https://drymy.github.io/-REACTJS-Checkbox-Filters/img/annivlillie2021.png',
         url: 'https://gamepress.gg/pokemonmasters/pokemon/lillie-lunala'
     },
     {
@@ -28,7 +28,7 @@ export const trainersData = [
         debuff: ['SP.DEFdown'],
         status: ['Burn'],
         terrain: [''],
-        icon: '../img/trainers/0Z_0G_ANNIV_2021_N.png',
+        icon: 'https://drymy.github.io/-REACTJS-Checkbox-Filters/img/annin2021.png',
         url: 'https://gamepress.gg/pokemonmasters/pokemon/n-reshiram'
     },
     {
@@ -44,7 +44,7 @@ export const trainersData = [
         debuff: ['SP.DEFdown'],
         status: [''],
         terrain: [''],
-        icon: '../img/trainers/0Z_0G_ANNIV_2021_Steven.png',
+        icon: 'https://drymy.github.io/-REACTJS-Checkbox-Filters/img/annisteven2021.png',
         url: 'https://gamepress.gg/pokemonmasters/pokemon/n-reshiram'
     },
     {
@@ -60,7 +60,7 @@ export const trainersData = [
         debuff: ['SP.DEFdown'],
         status: [''],
         terrain: [''],
-        icon: '../img/trainers/0Z_0B_PAL_2021_Serena.png',
+        icon: 'https://drymy.github.io/-REACTJS-Checkbox-Filters/img/palserena.png',
         url: 'https://gamepress.gg/pokemonmasters/pokemon/n-reshiram'
     },
     {
@@ -76,7 +76,7 @@ export const trainersData = [
         debuff: [''],
         status: ['Paralyze'],
         terrain: [''],
-        icon: '../img/trainers/0E_UNOVA_0B-04_SSElesa.png',
+        icon: 'https://drymy.github.io/-REACTJS-Checkbox-Filters/img/sselesa.png',
         url: 'https://gamepress.gg/pokemonmasters/pokemon/n-reshiram'
     }
 ];

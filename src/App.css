@@ -87,52 +87,6 @@ h4 {
   height: auto;
 }
 
-
-/*Modal*/
-
-/* .modalButton {
-  margin-top: 2em;
-}
-
-.modalOverlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: rgba(0, 0, 0, 0.45);
-  opacity: 0;
-  transition: opacity 300ms ease-in-out;
-}
-
-.modalContent {
-  width: 80%;
-  position: absolute;
-  top: 27%;
-  left: 50%;
-  right: auto;
-  bottom: auto;
-  margin-right: -50%;
-  transform: translate(-50%, -50%);
-  border: 1px solid #ccc;
-  background: rgb(67, 64, 90);
-  overflow: auto;
-  -webkit-overflow-scrolling: touch;
-  border-radius: 4px;
-  outline: none;
-  padding: 20px;
-  color: white;
-}
-
-.ReactModal__Overlay--after-open{
-  opacity: 1;
-}
-
-.ReactModal__Overlay--before-close{
-  opacity: 0;
-} */
-
-
 input[type=checkbox] {
   display: none;
 }
@@ -207,3 +161,48 @@ input[type=checkbox]:checked + label:before {
   color: #fff;
 }
 
+
+
+/*Modal*/
+
+/* .modalButton {
+  margin-top: 2em;
+}
+
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.45);
+  opacity: 0;
+  transition: opacity 300ms ease-in-out;
+}
+
+.modalContent {
+  width: 80%;
+  position: absolute;
+  top: 27%;
+  left: 50%;
+  right: auto;
+  bottom: auto;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid #ccc;
+  background: rgb(67, 64, 90);
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+  border-radius: 4px;
+  outline: none;
+  padding: 20px;
+  color: white;
+}
+
+.ReactModal__Overlay--after-open{
+  opacity: 1;
+}
+
+.ReactModal__Overlay--before-close{
+  opacity: 0;
+} */
